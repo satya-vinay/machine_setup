@@ -1,3 +1,9 @@
+#!/bin/bash
+
+
+sudo apt-get -y update
+sudo apt-get -y upgrade
+
 #Install oh-my-zsh shell
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
@@ -11,7 +17,7 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 
 
 #Install shell terminal multiplexer
-sudo apt install tmux -y
+sudo apt install -y tmux 
 
 #Install fonts
-sudo apt install powerline -y
+sudo apt install -y powerline
