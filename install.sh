@@ -4,6 +4,13 @@
 sudo apt-get -y update
 sudo apt-get -y upgrade
 
+
+
+sudo apt-get install -y python3-pip
+
+#Install AWS-cli
+apt install -y awscli
+
 #Install oh-my-zsh shell
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
